@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(179, 184, 133);
+  }
+
+h1 {
+    color: rgb(90, 168, 94);
+    margin-left: 20px;
+  }
+.skelespeak {
+
+}
+nav.menu{
+
+}
+#name{
+
+}
+*{
+
+}
+
+[href]{
+
+}
+nav:hover{
+
+}
+h1:hover{
+
+}
+h2:hover{
+
+}
+h3:hover{
+
+}
+h4:hover{
+
+}
+p, div, code{
+
+}
+ul>li{
+
+}
+ul label{
+
+}
+a:link{
+
+}
+
+aside ~ h2 {
+    something scary text
+}
+
+p + details{
+    
+}
