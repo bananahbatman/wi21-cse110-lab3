@@ -1,35 +1,76 @@
 
-h1 {
-    color: rgb(90, 168, 94);
+
+
+/*
+
+
+Flexbox (Links to an external site.)
+    Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.
+    Grid (Links to an external site.)
+    Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
+
+*/
+
+h2{
+    color: red;
+    background-color: rgb(183, 207, 155);
     border-style: solid;
     border-color: black;
     border-width: 5px;
     border-radius: 10px;
     margin: auto;
+}
+h2.ex1 {display: inline-block;}
+h2.ex2 {display: inline;}
+h2.ex3 {display: block;}
+
+
+h1, h3, h4 {
+    color: rgb(145,221,234);
+}
+.topnav{
+    overflow: hidden;
+  background-color: rgb(255,165,216);
+}
+
+.topnav a:hover {
+    background-color:rgb(230,64,128);
+    color: black;
   }
 
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
 /* Changes the text the skeleton says */
 .skelespeak {
-
+    text-decoration: line-through;
+    text-align: right;
 }
 nav.menu{
-   color: hsl(283, 50, 78)
+   background-color: rgb(255,165,216);
     border-style: solid;
     border-color: black;
     border-width: 5px;
     border-radius: 10px;
     margin: 15px 20px 15px 20px;
-    padding-top: 3em
-    padding-bottom: 3em
-    padding-left: 3em
-    padding-right: 3em
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
-#name{
-
+#button{
+    font-size: 12px;
+    background-color:#a5ffcc;
 }
+
 *{
-    background-color: rgb(255, 115, 255);
+    background-color: rgb(230,64,128);
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 [href]{
@@ -39,21 +80,37 @@ nav.menu{
 picture > img{
     height: 250px;
     width:   75%;
+    position: absolute;
 }
 nav:hover{
-
+    color:rgb(255, 115, 255);
 }
 h1:hover{
-
+    color:rgb(255,165,216);
 }
 h2:hover{
-
+    color:rgb(255,165,216);
 }
 h3:hover{
-
+    color:rgb(255,165,216);
 }
 h4:hover{
-
+    color:rgb(255,165,216);
+}
+nav:active{
+    color:rgb(255,165,216);
+}
+h1:active{
+    color:#e64080;
+}
+h2:active{
+    color:#e64080;
+}
+h3:active{
+    color:#e64080;
+}
+h4:active{
+    color:#e64080;
 }
 p, div, code, form{
     border-style: solid;
@@ -66,21 +123,31 @@ p, div, code, form{
     margin-bottom: 15px;
     margin-right: 20px;
     margin-left: 20px;
+    position: relative;
 }
 ul>li{
-
+    color: yellow;
 }
 ul label{
-
+    color: yellow;
 }
 a:link{
-
+    color:#91ddea;
+}
+a:visited{
+    color: #a5ffcc;
+}
+a:hover{
+    color:white;
+}
+a:active{
+    color:#91ddea;
 }
 
 aside ~ h2 {
-    something scary text
+    font-size: 16px;
 }
 
 p + details{
-
+    text-align: center;
 }

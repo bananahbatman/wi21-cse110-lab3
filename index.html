@@ -4,23 +4,31 @@
 
     <head>
         <style>
-           body {
-            background-color:bisque;
-                }
-
-            
-            h1 {
-              color: #aadde3;
+           
+            [content] {
+              color: white;
               margin-left: 40px;
             }
-        </style>
+            .flex-container {
+                display: flex;
+                flex-wrap: nowrap;
+                background-color: black;
+            }
 
+        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
         <title> My Minimalist Website </title>
         <link rel="stylesheet" href="styles.css">
         <meta name ="author" content="Justin Nguyen">
     </head>
     <body>
     <header>
+        <div class="topnav">
+            <a href="#">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Contact</a>
+          </div>
         <h1> Whoami: </h1>
         <nav class="menu">
             <ul>
@@ -40,7 +48,7 @@
     
 
     <section>
-            <h2>Design Philosophy:</h2>
+            <h2 class="ex1">Design Philosophy:</h2>
             <p> Minimalist</p>
 
         
@@ -123,7 +131,7 @@
     <section>
 
    
-        <h2>Memes</h2>
+        <h2 class="ex2">Memes</h2>
 
         <aside>
             <p> <b>Wait</b>, <br> Do you hear <b>that</b>? <br> <i>Something is coming</i>. <br> Oh no, we aren't safe. <br> <em> It's here</em>. <br>  HIDE YOUR <strong>CHILDREN.</strong> <br> </p>
@@ -216,7 +224,7 @@
     <section>
 
    
-    <h2>About You:</h2>      
+    <h2 class="ext3">About You:</h2>      
     <p>Now that you know about me. Tell me about yourself in this form.</p>
     
     <form action="/my-handling-form-page" method="get">
