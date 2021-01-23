@@ -1,26 +1,44 @@
-body {
-    background-color: rgb(179, 184, 133);
-  }
 
 h1 {
     color: rgb(90, 168, 94);
-    margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: auto;
   }
+
+/* Changes the text the skeleton says */
 .skelespeak {
 
 }
 nav.menu{
-
+   color: hsl(283, 50, 78)
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 15px 20px 15px 20px;
+    padding-top: 3em
+    padding-bottom: 3em
+    padding-left: 3em
+    padding-right: 3em
 }
+
 #name{
 
 }
 *{
-
+    background-color: rgb(255, 115, 255);
 }
 
 [href]{
-
+    height: 200px;
+    width:   50%;
+}
+picture > img{
+    height: 250px;
+    width:   75%;
 }
 nav:hover{
 
@@ -37,8 +55,17 @@ h3:hover{
 h4:hover{
 
 }
-p, div, code{
-
+p, div, code, form{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 50px 50px 50px 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 ul>li{
 
@@ -55,5 +82,5 @@ aside ~ h2 {
 }
 
 p + details{
-    
+
 }
