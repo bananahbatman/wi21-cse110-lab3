@@ -9,53 +9,8 @@ Grid (Links to an external site.)
     Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
 
 */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: #000000;
-    padding: 5px;
-    justify-content: space-evenly;
-  }
-  
-  .grid-item {
-    background-color: rgba(207, 17, 255, 0.8);
-    border: 5px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    text-align: center;
-  }
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: black;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  
-  .flex-container > p {
-    background-color: rgb(230,64,128);
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
-
-h2{
-    color: red;
-    background-color: rgb(183, 207, 155);
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 10px;
-    margin: auto;
-}
-h2.ex1 {display: inline-block;}
-h2.ex2 {display: inline;}
-h2.ex3 {display: block;}
 
 
-h1, h3, h4 {
-    color: rgb(145,221,234);
-}
 .topnav{
     overflow: hidden;
   background-color: rgb(255,165,216);
@@ -72,49 +27,44 @@ h1, h3, h4 {
       width: 100%;
     }
   }
-/* Changes the text the skeleton says */
-.skelespeak {
-    text-decoration: line-through;
-    text-align: right;
-}
-nav.menu{
-   background-color: rgb(255,165,216);
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    border-radius: 10px;
-    margin: 15px 20px 15px 20px;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    padding-left: 3em;
-    padding-right: 3em;
+
+
+  nav.menu{
+    background-color: rgb(255,165,216);
+     border-style: solid;
+     border-color: black;
+     border-width: 5px;
+     border-radius: 10px;
+     margin: 15px 20px 15px 20px;
+     padding-top: 3em;
+     padding-bottom: 3em;
+     padding-left: 3em;
+     padding-right: 3em;
+ }
+
+
+h3, h4 {
+    color: rgb(145,221,234);
 }
 
-#button{
-    font-size: 12px;
-    background-color:#a5ffcc;
+h1, h2{
+    color: white;
+    font-size: larger;
+    
+    
+    margin: left;
 }
 
-*{
-    background-color: rgb(230,64,128);
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
-}
+h2.ex1 {display: inline-block;}
+h2.ex2 {display: inline;}
+h2.ex3 {display: block;}
 
-[href]{
-    height: 200px;
-    width:   50%;
-}
-picture > img{
-    height: 250px;
-    width:   75%;
-    position: absolute;
-}
+
 nav:hover{
     color:rgb(255, 115, 255);
 }
 h1:hover{
-    color:rgb(255,165,216);
+    color:rgb(214, 132, 178);
 }
 h2:hover{
     color:rgb(255,165,216);
@@ -140,11 +90,73 @@ h3:active{
 h4:active{
     color:#e64080;
 }
-p, div, code, form{
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #000000;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  
+  .grid-item {
+    background-color: rgba(207, 17, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flex-container > p {
+    background-color: rgb(230,64,128);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+/* Changes the text the skeleton says */
+.skelespeak {
+    text-decoration: line-through;
+    text-align: right;
+}
+
+#button{
+    font-size: 12px;
+    background-color:#a5ffcc;
+}
+
+*{
+    background-color: rgb(230,64,128);
+    color: 	#8816a2;
+    font-family: 'Ubuntu', sans-serif;
+}
+span, b, i, em, strong, a{
+    background-color: #ffa5d8;
+}
+[href]{
+    height: 200px;
+    width:   50%;
+}
+picture > img{
+    height: 250px;
+    width:   75%;
+    position: absolute;
+}
+p, div, code, form {
     border-style: solid;
     border-color: black;
     border-width: 5px;
     border-radius: 10px;
+    background-color: #ffa5d8;
     width: 300px;
     padding: 50px 50px 50px 50px;
     margin-top: 15px;
@@ -155,8 +167,19 @@ p, div, code, form{
 }
 ul>li{
     color: yellow;
+    background-color: #ffa5d8;
+}
+ul{
+    background-color: #ffa5d8;
 }
 ul label{
+    background-color: #ffa5d8;
+}
+ul input{
+    background-color: #ffa5d8;
+}
+}
+ol li{
     color: yellow;
 }
 a:link{
