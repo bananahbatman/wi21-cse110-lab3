@@ -4,12 +4,40 @@
 /*
 
 
-Flexbox (Links to an external site.)
-    Must have more than two children within the element that is using flexbox. Must use minimum three of the flexbox related attributes.
-    Grid (Links to an external site.)
+
+Grid (Links to an external site.)
     Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
 
 */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #000000;
+    padding: 5px;
+    justify-content: space-evenly;
+  }
+  
+  .grid-item {
+    background-color: rgba(207, 17, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+  }
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .flex-container > p {
+    background-color: rgb(230,64,128);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
 
 h2{
     color: red;
