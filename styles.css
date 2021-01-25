@@ -35,27 +35,28 @@ Grid (Links to an external site.)
      border-color: black;
      border-width: 5px;
      border-radius: 10px;
-     margin: 15px 20px 15px 20px;
-     padding-top: 3em;
-     padding-bottom: 3em;
-     padding-left: 3em;
-     padding-right: 3em;
+     margin: 10px 10px 10px 10px;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-left: 1em;
+     padding-right: 1em;
  }
 
 
 h3, h4 {
     color: rgb(145,221,234);
+    
 }
 
 h1, h2{
     color: white;
     font-size: larger;
+    text-align: center;
     
-    
-    margin: left;
+    margin: none;
 }
 
-h2.ex1 {display: inline-block;}
+h2.ex1 {display: none}
 h2.ex2 {display: inline;}
 h2.ex3 {display: block;}
 
@@ -93,16 +94,19 @@ h4:active{
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 50px 50x 100px 50px;
+    grid-template-rows: 100px 100px 100px 100px;
     background-color: #000000;
-    padding: 5px;
+    padding:10px;
+    grid-gap: 10px;
     justify-content: space-evenly;
   }
   
   .grid-item {
     background-color: rgba(207, 17, 255, 0.8);
     border: 5px solid rgba(0, 0, 0, 0.8);
-    padding: 10px;
+    color:black;
+    padding: 10px 0px;
     text-align: center;
   }
 
@@ -147,9 +151,9 @@ span, b, i, em, strong, a{
     width:   50%;
 }
 picture > img{
-    height: 250px;
-    width:   75%;
-    position: absolute;
+    height: 45%;
+    width:   45%;
+    position: static;
 }
 p, div, code, form {
     border-style: solid;
