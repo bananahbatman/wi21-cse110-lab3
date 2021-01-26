@@ -1,19 +1,12 @@
 
 
 
-/*
-
-
-
-Grid (Links to an external site.)
-    Must have more than two children within the element that is using grid. Must use minimum three of the flexbox related attributes.
-
-*/
 
 
 .topnav{
     overflow: hidden;
-  background-color: rgb(255,165,216);
+  background-color: rgb(230,64,128);
+
 }
 
 .topnav a:hover {
@@ -28,6 +21,12 @@ Grid (Links to an external site.)
     }
   }
 
+ .topnav a{
+     text-align: center;
+
+
+     background-color: rgb(230,64,128);
+ }
 
   nav.menu{
     background-color: rgb(255,165,216);
@@ -94,36 +93,42 @@ h4:active{
 
 .grid-container {
     display: grid;
-    grid-template-columns: 50px 50x 100px 50px;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+ 
     background-color: #000000;
-    padding:10px;
-    grid-gap: 10px;
-    justify-content: space-evenly;
+    padding:5px;
+    grid-gap: 5px; 
+    justify-content: none;
+    border-radius: 10px;
   }
   
   .grid-item {
     background-color: rgba(207, 17, 255, 0.8);
-    border: 5px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     color:black;
-    padding: 10px 0px;
+    padding: 10px 0px; 
     text-align: center;
-  }
 
+  }
+ 
 .flex-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: black;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #e64080;
+    justify-content: flex-end;
+
+    align-items: flex-start; 
   }
   
-  .flex-container > p {
-    background-color: rgb(230,64,128);
+  .flex-container > div {
+    background-color: black;
+    color: white;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
   }
 
 
@@ -137,7 +142,13 @@ h4:active{
     font-size: 12px;
     background-color:#a5ffcc;
 }
-
+button{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
 *{
     background-color: rgb(230,64,128);
     color: 	#8816a2;
@@ -172,11 +183,14 @@ p, code, form {
     margin-left: 20px;
     position: relative;
 }
-ul>li{
+ul li{
     color: yellow;
     background-color: #ffa5d8;
 }
 ul{
+    background-color: #ffa5d8;
+}
+ul label{
     background-color: #ffa5d8;
 }
 h2 + ul{
